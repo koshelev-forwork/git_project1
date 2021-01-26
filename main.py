@@ -23,7 +23,7 @@ class Window(QMainWindow):
             qp = QPainter()
             qp.begin(self)
             self.drawEll(qp)
-            qp.end(
+            qp.end()
 
     def drawEll(self, qp):
         d = random.randint(10, 600)
