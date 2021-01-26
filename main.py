@@ -27,8 +27,7 @@ class Window(QMainWindow):
 
     def drawEll(self, qp):
         d = random.randint(10, 600)
-        qp.setBrush(QColor(255, 255, 0))
-        # qp.setBrush(QColor(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
+        qp.setBrush(QColor(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
         qp.drawEllipse(random.randint(10, 600), random.randint(10, 600), d, d)
 
 
